@@ -1,0 +1,4 @@
+module CLibJPEGTurbo {
+    header "CLibJPEGTurbo.h"
+    export *
+}
