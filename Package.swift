@@ -13,6 +13,5 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "CLibJPEGTurbo", url: releaseURL, checksum: releaseChecksum),
-        .testTarget(name: "CLibJPEGTurboTests", dependencies: ["CLibJPEGTurbo"]),
     ]
 )
